@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+main(){
+
+    int x;
+
+    cout<<"Pilih Minuman Anda: ";cin>>x;
+    if(x==1){
+        cout<<"Minuman yang anda pilih adalah CocaCola\n";
+    }
+    else
+    if(x==2){
+        cout<<"Minuman yang anda pilih adalah Nestea\n";
+    }
+    else
+    if(x==3){
+        cout<<"Minuman yang anda pilih adalah Cimory\n";
+    }
+    else
+    if(x==4){
+        cout<<"Minuman yang anda pilih adalah Milo\n";
+        }
+    else
+    if(x==5){
+        cout<<"Minuman yang anda pilih adalah Rootbeer\n";
+        }
+    else
+        cout<<"Error!!!choice was not valid, here is your money back\n\n ";
+
+
+
+
+
+    return 0;
+}
